@@ -33,35 +33,6 @@ int main() {
   scanf("%d", &pontos);
 
 
-  #include <stdio.h>
-  
-int main() {
-  char Estado;
-  char Código[2];
-  char Nome[40];
-  int População, pontos ;
-  float àrea, PIB;
-
-   printf("Digite a letra do estado:\n");
-  scanf("%s", &Estado);
-
-  printf("Digite o código da carta:\n");
-  scanf("%s", &Código);
-
-  printf("Digite o nome da cidade:\n");
-  scanf("%s",  &Nome);
-
-  printf("Digite o número de habitantes:\n");
-  scanf("%d", &População);
-
-  printf("Digite a àrea em km2:\n");
-  scanf("%f", &àrea);
-
-  printf("Digite o produto interno bruto(pib) da cidade:\n");
-  scanf("%f", &PIB);
-
-  printf("Digite a quantidade de pontos turísticos na cidade\n");
-  scanf("%d", &pontos);
 
 return 0;
 } 
